@@ -1,0 +1,119 @@
+@charset "UTF8-8";
+
+body{ font-family: 'Times New Roman', Times, serif;
+      margin: 0;
+      padding: 0;
+}
+
+#principal{ width: 1024px;
+            margin: 20px auto;
+}
+
+.header-top{ height: 50px;
+             background: rgba(16, 112, 141, 0.993);
+             position: relative;
+             
+}
+
+.logotipo{ margin: 5px 1px 0 12px;
+}
+
+.header-nav{ position: absolute;
+             top: 2px;
+             right: 0;
+             height: 100%;
+}
+
+.header-nav ul{ margin: 3px;
+                padding: 0;
+                text-align: right;
+}
+
+.header-nav li{ list-style: none;
+                display: inline-block;
+                margin: 0 2px 0 0;
+                padding: 10px;
+                border: 1px solid rgb(9, 86, 109)
+}
+
+.header-nav a{ 
+               color: rgba(225, 228, 228, 0.774);
+               text-decoration: none;
+               text-transform: uppercase;
+               letter-spacing: 1px;
+               transition: color 0.3s linear;
+               display: block;
+               padding: 1px;
+}
+
+.header-nav a:hover{ color: rgb(0, 0, 0)
+}
+
+.portfolio{ padding: 20px 300px;
+            text-align: center;
+            
+}
+
+.portfolio h1{ font-size: 35px;
+               color:  rgb(114, 7, 7);
+               text-transform: uppercase;
+}
+
+.portfolio p{ font-size: 18px;
+              color: black;
+}
+
+.gallery{ color: rgb(19, 18, 18);
+          padding: 0 100px 50px 100px;
+          overflow: auto;
+}
+
+.gallery-card{ width: 33%;
+               float: left;
+               text-align: center;
+}
+
+.flex-about{ display: flex;
+             justify-content: center;
+             align-items: center;
+}
+
+.about{ 
+        width: max-content;
+        padding: 50px;
+        color: #413316;
+        background-image: url(img/pergaminho.png);
+        background-repeat: no-repeat;
+        background-position: center;
+
+        
+        margin-top: 2px;
+        width: 40%;
+        
+}
+
+.about h2{ text-transform: uppercase;
+           font-size: 30px;
+           text-align: center;
+}
+
+.lista{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+.about ol li{ line-height: 1.4;
+              width: 100%;
+
+}
+
+footer{ background-color: rgba(139, 171, 231, 0.993);
+        padding: 12px;
+        font-size: 12px;
+        color: rgba(0, 0, 0, 0.644);
+        letter-spacing: 10px;
+        text-align: center;
+             
+}
+
